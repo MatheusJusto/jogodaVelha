@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Jogo da velha</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="jquery-2.2.1.js"></script>
+
+	</head>
+
+	<body>
+		<div id="inicialPage">
+			<table >
+				<tbody>
+					<tr>
+						<td colspan="3" align="center"><h1>Jogo da velha</h1></td>
+					</tr>
+					<tr>
+						<td><img src="imagens/jogador_1.png" alt=""><br><input type="text" maxlenght="10" placeholder="Apelido jogador 1" id="player1"></td>
+						<td><img src="imagens/iniciar.png" alt="" id="btnIniciar"></td>
+						<td><img src="imagens/jogador_2.png" alt=""><br><input type="text" maxlenght="10" placeholder="Apelido jogador 2" id="player2"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="stageGame">
+			<table>
+				<tr>
+					<td><div><img src="imagens/jogador_1.png" alt=""><br><span id="nomePlayer1"></span></div></td>
+					<td>
+						<div><table id="jogo">
+				<tr>
+					<td class='jogada' id='a-1' style="border-bottom: 2px solid red; border-right: 2px solid red;"></td>
+					<td class='jogada' id='a-2' style="border-bottom: 2px solid red; border-right: 2px solid red;"></td>
+					<td class='jogada' id='a-3' style="border-bottom: 2px solid red;" ></td>
+				</tr>
+				<tr>
+					<td class='jogada' id='b-1' style="border-bottom: 2px solid red; border-right: 2px solid red;"></td>
+					<td class='jogada' id='b-2' style="border-bottom: 2px solid red; border-right: 2px solid red;"></td>
+					<td class='jogada' id='b-3' style="border-bottom: 2px solid red;" ></td>
+				</tr>
+				<tr>
+					<td class='jogada' id='c-1' style="border-right: 2px solid red;"></td>
+					<td class='jogada' id='c-2' style="border-right: 2px solid red;"></td>
+					<td class='jogada' id='c-3' ></td>
+				</tr>
+			</table></div>
+					</td>
+					<td><div><img src="imagens/jogador_2.png" alt=""><br><span id="nomePlayer2"></span></div></td>
+				</tr>
+			</table>
+			
+			
+			
+		</div>
+		<script src="jogo.js"></script>
+	</body>
+</html>

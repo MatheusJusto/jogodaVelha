@@ -1,0 +1,29 @@
+body {
+	padding: 0 auto;
+	text-align: center;
+}
+
+table {
+	width: 500px;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+	margin: 0 auto;
+}
+
+div input {
+	border: 0;
+}
+
+#stageGame {
+	margin-top: 200px;
+	display: inline-block;
+	display: none;
+}
+
+#jogo td{
+	width: 130px;
+	height: 130px;
+}
